@@ -6,6 +6,9 @@ on:
     branches: [ main ]
 
 jobs:
+  job-name:
+    permissions:
+      contents: write
   scan_ruby:
     runs-on: ubuntu-latest
 
